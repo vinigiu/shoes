@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesWork.css">
+    <title>Shoes Store</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="header-logo">
+               <a href="#"><img src="../img/logo-color.png" alt="logo shoes"></a> 
+            </section>
+    
+            <section class="menu">
+                <article class="opcao">
+                    <a href="#">TODOS OS PRODUTOS</a>
+                </article>
+                
+                <article class="opcao">
+                    <a href="#">COLEÇÕES</a>
+                </article>
+    
+                <article class="opcao">
+                    <a href="#">OUTLET</a>
+                </article>
+            </section>
+        </nav>
+    </header>
+
+    <section id="faixa">
+    </section>
+
+    <section id="aviso">
+        <p>MÊS DE SETEMBRO - FRETE GRÁTIS PARA TODO O BRASIL!</p>
+    </section>
+
+    <main>
+        <h1>Faça parte do nosso time</h1>
+        <div class="principal">
+            <section class="left-side-team">
+                <article>
+                    <form action="./workWithUs.html" method="post">
+                        <div class="input">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" class="caixa" required>
+                        </div>
+        
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="caixa" required>
+                        </div>
+        
+                        <div class="input">
+                            <label for="tel">Telefone</label>
+                            <input type="text" id="tel" name="tel" class="caixa" required>
+                        </div>
+        
+                        <div class="input">
+                            <label for="dept">Departamentos</label>
+                            <select name="dept" id="dept" class="caixa" required>
+                                <option selected disabled></option>
+                                <option value="">Vendas</option>
+                                <option value="">Administrativo</option>
+                                <option value="">Design</option>
+                                <option value="">Financeiro</option>
+                                <option value="">Marketing</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-check">
+                            <p>Disponibilidade</p>
+                            <input type="checkbox" name="disp" id="integral" value="integral"><label for="disp"> Integral (8h)</label>
+                            <input type="checkbox" name="disp" id="half" value="half"><label for="disp"> Meio período (4h)</label>
+                            <input type="checkbox" name="disp" id="freelance" value="freelance"><label for="disp"> Freelancer</label>
+                        </div>
+                        
+                        <div class="input-radio">
+                            <p>Qual a melhor forma para entrarmos em contato com você?</p>
+                            <input type="radio" name="contato" id="email" value="email"><label for="contato"> E-mail</label>
+                            <input type="radio" name="contato" id="call" value="call"><label for="contato"> Ligação</label>
+                            <input type="radio" name="contato" id="whatsapp" value="whatsapp"><label for="contato"> Whatsapp</label>
+                        </div>
+
+                        <div class="input">
+                            <p>Mensagem</p>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="input" id="resume">
+                            <label>Currículo</label>
+                            <button type="button" class="upload">upload</button>
+                        </div>
+
+                        <button type="submit" class="button">enviar</button>
+                    </form>
+                </article>
+            </section>
+            <section class="right-side-team">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo a deleniti id nobis, quos enim ipsum delectus ullam veniam, ex aut exercitationem accusantium consectetur blanditiis ducimus, placeat.</p>
+    
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit provident ex minima quae dicta repudiandae tempore, sunt perferendis assumenda. Magnam facilis laudantium soluta natus cumque, dolores incidunt cum laboriosam alias.</p>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, totam! Suscipit quibusdam vitae, voluptatibus nostrum fugiat molestias quae eveniet laboriosam, quam repellendus minus officia quia at ab distinctio! Eos, nisi.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <section class="footer-logo">
+            <img src="../img/logo-white.png" alt="logo shoes">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius consequuntur velit natus amet? Dolor sit amet consectetur adipisicing elit. Repellat eius consequuntur velit natus amet?</p>
+        </section>
+        
+        <section class="categories">
+            <h3>categorias</h3>
+            <ul class="lista">
+                <li><a href="#">sandálias</a></li>
+                <li><a href="#">botas</a></li>
+                <li><a href="#">tênis</a></li>
+                <li><a href="#">oxford</a></li>
+                <li><a href="#">coturnos</a></li>
+            </ul>
+        </section>
+
+        <section class="institutional">
+            <h3>institucional</h3>
+            <ul class="lista">
+                <li><a href="#">sobre nós</a></li>
+                <li><a href="#">perguntas frequentes</a></li>
+                <li><a href="#">política de privacidade</a></li>
+                <li><a href="#">rastreamento de pedidos</a></li>
+                <li><a href="#">trabalhe conosco</a></li>
+                <li><a href="#">contato</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
